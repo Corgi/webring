@@ -1,7 +1,21 @@
-<webring-banner>
-    <p>Member of the <a href="{{ meta.url }}">{{ meta.title }}</a> webring</p>
-    <a href="{{ meta.url }}/prev">Previous</a>
-    <a href="{{ meta.url }}/random">Random</a>
-    <a href="{{ meta.url }}/next">Next</a>
+<table>
+    <tr>
+        <td>
+            <p>I'm part of the <a href="{{ meta.url }}">{{ meta.title }}</a> webring!</p>
+            <a href="{{ meta.url }}/prev">Previous</a>
+            <a href="{{ meta.url }}/random">Random</a>
+            <a href="{{ meta.url }}/next">Next</a>
 </webring-banner>
 <script async src="{{ meta.url }}/embed.js" charset="utf-8"></script>
+
+<table>
+    <tr>
+      <td><a href="{{ meta.url }}/prev">Previous</a></td>
+      <td style='text-align:center;'><p>I'm part of the <a href="{{ meta.url }}">{{ meta.title }}</a> webring!</p>
+      <a href="{{ meta.url }}/random">Random</a></td>
+      <td><a href="{{ meta.url }}/next">Next</a></td>
+    </tr>
+    <tr>
+    <script async src="{{ meta.url }}/embed.js" charset="utf-8"></script>
+    </tr>
+</table>
