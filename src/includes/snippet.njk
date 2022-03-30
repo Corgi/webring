@@ -1,11 +1,13 @@
 <table>
     <tr>
-      <td><a href="{{ meta.url }}/prev">Previous</a></td>
-      <td style='text-align:center;'><p>I'm part of the <a href="{{ meta.url }}">{{ meta.title }}</a></p>
-      <a href="{{ meta.url }}/random">Random</a></td>
-      <td><a href="{{ meta.url }}/next">Next</a></td>
+        <td><img src="assets/images/cat.jpg"></td>
+        <td>I'm part of the <p>I'm part of the <a href="{{ meta.url }}">{{ meta.title }}</a>!</p></td>
+        <td><img src="assets/images/cat.jpg"></td>
     </tr>
     <tr>
-    <script async src="{{ meta.url }}/embed.js" charset="utf-8"></script>
+        <td>[<a href="{{ meta.url }}/prev">Previous</a>]</td>
+        <td>[<a href="{{ meta.url }}/random">Random</a>]</td>
+        <td>[<a href="{{ meta.url }}/next">Next</a>]</td>
     </tr>
 </table>
+<script async src="{{ meta.url }}/embed.js" charset="utf-8"></script>
