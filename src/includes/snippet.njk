@@ -1,15 +1,13 @@
-<center>
-<table>
+<table style="background: lightgray;border: 16px outset gray;">
     <tr>
-        <td><img src="assets/images/cat.jpg"></td>
-        <td><p>I'm part of the <a href="{{ meta.url }}">{{ meta.title }}</a>!</p></td>
-        <td><img src="assets/images/cat.jpg"></td>
+        <td style="width:25%"><img src="assets/images/cat.jpg"></td>
+        <td style="width:50%;text-align:center;"><h1>I'm part of the <a href="{{ meta.url }}">{{ meta.title }}</a>!</h1></td>
+        <td style="width:25%"><img src="assets/images/cat.jpg"></td>
     </tr>
     <tr>
-        <td>[<a href="{{ meta.url }}/prev">Previous</a>]</td>
-        <td>[<a href="{{ meta.url }}/random">Random</a>]</td>
-        <td>[<a href="{{ meta.url }}/next">Next</a>]</td>
+        <td style="width:33.33%;text-align:center;>[<a href="{{ meta.url }}/prev">Previous</a>]</td>
+        <td style="width:33.33%;text-align:center;>[<a href="{{ meta.url }}/random">Random</a>]</td>
+        <td style="width:33.33%;text-align:center;>[<a href="{{ meta.url }}/next">Next</a>]</td>
     </tr>
 </table>
-</center>
 <script async src="{{ meta.url }}/embed.js" charset="utf-8"></script>
